@@ -1,0 +1,59 @@
+{
+  "name": "linter-github-actions",
+  "main": "./lib/main.js",
+  "version": "1.0.0",
+  "description": "Github actions config lint via actionlint",
+  "repository": "https://github.com/mschuchard/linter-github-actions",
+  "license": "MIT",
+  "keywords": [
+    "lint",
+    "linter",
+    "github",
+    "actions"
+  ],
+  "scripts": {
+    "test": "atom --test spec"
+  },
+  "bugs": {
+    "url": "https://github.com/mschuchard/linter-github-actions/issues"
+  },
+  "engines": {
+    "atom": ">0.95.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "atom-linter": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "globals": {
+      "atom": false
+    }
+  }
+}
