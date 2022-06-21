@@ -33,6 +33,6 @@ jobs:
     - name: lint source and spec
       run: ./node_modules/.bin/eslint lib spec || true
     - name: install actionlint
-      run: curl -s https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash
+      run: curl -s https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash latest /usr/bin
     - name: run tests
       run: atom --test spec
