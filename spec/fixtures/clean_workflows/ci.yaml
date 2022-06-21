@@ -1,0 +1,9 @@
+---
+name: ci
+
+jobs:
+  the_job:
+    runs-on: [ubuntu-latest]
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
