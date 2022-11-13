@@ -1,4 +1,4 @@
-### (Next)
+### 1.0.1
 - Add Error Ignores to package configuration options.
 - Add Pyflakes and Shellcheck Command Path package configurations.
 

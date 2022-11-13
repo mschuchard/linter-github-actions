@@ -1,7 +1,7 @@
 {
   "name": "linter-github-actions",
   "main": "./lib/main.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Github actions config lint via actionlint",
   "repository": "https://github.com/mschuchard/linter-github-actions",
   "license": "MIT",
