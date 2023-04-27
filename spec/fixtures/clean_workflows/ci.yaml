@@ -1,6 +1,10 @@
 ---
 name: ci
 
+on:
+  push:
+    branches: [master]
+
 jobs:
   the_job:
     runs-on: [ubuntu-latest]
