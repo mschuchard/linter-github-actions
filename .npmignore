@@ -2,6 +2,5 @@ node_modules
 .gitignore
 spec
 .git
-.travis.yml
 .circleci
 .github
