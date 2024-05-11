@@ -10,4 +10,4 @@ The ActionLint CLI binary executable is required to be installed before using th
 All testing is performed with the latest stable version of Pulsar. Any version of Atom or any pre-release version of Pulsar is not supported.
 
 ### Usage
-- All YAML files located in a directory named `workflows` with a `jobs` key will be linted with this linter. Be aware of this in case you have a non-Actions YAML file with this characteristic. Also be aware of this in case you have a typo for the `jobs` key, since this linter will then not trigger.
+- All YAML files with a `jobs` key and located in a directory path `.github/workflows` or `.github\\workflows` will be linted with this linter. Be aware of this in case you have a non-Actions YAML file with this characteristic. Also be aware of this in case the path is incorrect in your project, or you have a typo for the `jobs` key, since this linter will then not trigger.

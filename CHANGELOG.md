@@ -1,4 +1,4 @@
-### 1.0.2 (Next)
+### 1.0.2
 - Add Config File config option.
 - Stricter enforcement of only lint Github Actions config files.
 
