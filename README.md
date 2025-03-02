@@ -1,5 +1,4 @@
 ### Linter-Github-Actions
-
 Linter-Github-Actions aims to provide functional and robust `actionlint` linting functionality within Pulsar.
 
 This package is now in maintenance mode. All feature requests and bug reports in the Github repository issue tracker will receive a response, and possibly also be implemented (especially bug fixes). However, active development on this package has ceased.
