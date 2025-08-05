@@ -1,5 +1,4 @@
 (Next)
-- fixture for ignore non gha config yaml
 
 ### 1.0.2
 - Add Config File config option.

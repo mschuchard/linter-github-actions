@@ -76,4 +76,14 @@ describe('The Actions provider for Linter', () => {
       );
     });
   });
+
+  it('ignores a not github actions yaml file', (done) => {
+    const ignoreFile = path.join(__dirname, 'fixtures\/.github\/workflows', 'non-gha.yaml');
+    return atom.workspace.open(ignoreFile).then(editor =>
+      lint(editor).then(messages => {
+      }, () => {
+        done();
+      })
+    );
+  });
 });
