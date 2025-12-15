@@ -1,4 +1,5 @@
-(Next)
+### 1.0.3 (Next)
+- Improve package activation.
 
 ### 1.0.2
 - Add Config File config option.
